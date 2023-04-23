@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.burger{
+    width: 100%;
+    height: 50%;
+    display: none;
+}
+.burger i{
+    color: white;
+}
+.burger .burgerNavlist{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    width: 100%;
+}
+.burger .burgerNavlist li{
+    padding: 20px;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.burgercontactMe{
+    width: 20%;
+    background-color: #0778e8;
+    color: white;
+    border-radius: 200px;
+    font-weight: 300;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 3px 10px 0px #0778e8;
+    margin-top: 40px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #0d1117;
+    color: white;
+    overflow-x: hidden;
+}
+
+.icon{
+    font-size: 30px;
+}
+.i{
+    display: block;
+    color: white;
+    font-size: 30px;
+}
+li, a, button{
+
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+a{
+    padding: 25px;
+    margin-top: -5px;
+}
+li:hover, a:hover, button:hover{
+    transform: translateY(-2%);
+}
+.contactMe{
+    background-color: #0778e8;
+    color: white;
+    border-radius: 200px;
+    font-weight: 300;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 3px 10px 0px #0778e8;
+}
+button:hover{
+    scale: 1.05;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+}
+ul{
+    display: flex;
+}
+.hero{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 9%;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+.content .image img{
+    width: 100%;
+    height: auto;
+}
+.mainText{
+    height: 100%;
+    margin-top: 5%;
+    width: 50%;
+    color: white;
+}
+.mainText h1{
+    font-size: 70px;
+    background: hsla(196, 82%, 50%, 1);
+
+    background: hsla(196, 82%, 50%, 1);
+    background: hsla(196, 82%, 50%, 1);
+
+    background: hsla(196, 82%, 50%, 1);
+
+    background: linear-gradient(0deg, hsla(196, 82%, 50%, 1) 0%, hsla(287, 100%, 66%, 1) 100%);
+    
+    background: -moz-linear-gradient(0deg, hsla(196, 82%, 50%, 1) 0%, hsla(287, 100%, 66%, 1) 100%);
+    
+    background: -webkit-linear-gradient(0deg, hsla(196, 82%, 50%, 1) 0%, hsla(287, 100%, 66%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#17AEE6", endColorstr="#DA52FF", GradientType=1 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mainText p{
+    font-size: 15px;
+}
+.mainText .lowerP{
+    color: lightgrey;
+    font-size: 1.4rem;
+}
+
+.heroButtons{
+    padding-top: 35px;
+}
+.heroButtons .left{
+
+    background-color: #0778e8;
+    border-radius: 200px;
+    font-weight: 300;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.heroButtons .left a{
+    color: white;
+}
+.heroButtons button:hover{
+    scale: 1.025;
+}
+.aboutMe{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.aboutMe p{
+    font-weight: 400;
+    font-size: 20px;
+    color: lightgrey;
+    padding: 0px 300px 0px 300px;
+}
+.skills{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10%;
+}
+.highlight{
+    background: hsla(196, 82%, 50%, 1);
+
+    background: hsla(196, 82%, 50%, 1);
+    background: hsla(196, 82%, 50%, 1);
+
+    background: hsla(196, 82%, 50%, 1);
+
+    background: linear-gradient(0deg, hsla(196, 82%, 50%, 1) 0%, hsla(287, 100%, 66%, 1) 100%);
+    
+    background: -moz-linear-gradient(0deg, hsla(196, 82%, 50%, 1) 0%, hsla(287, 100%, 66%, 1) 100%);
+    
+    background: -webkit-linear-gradient(0deg, hsla(196, 82%, 50%, 1) 0%, hsla(287, 100%, 66%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#17AEE6", endColorstr="#DA52FF", GradientType=1 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.skills h4{
+    color: lightgrey;
+    margin-top: 2%;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.skills .boxes{
+    margin-top: 3%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.skills .boxes .box{
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    transition: 0.2s ease-in-out;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #12171f;
+}
+.skills .boxes .box:hover{
+    scale: 1.025;
+    cursor: pointer;
+}
+.skills .boxes .box h1{
+    margin-top: 15%;
+    font-size: 25px;
+    font-weight: 600;
+}
+.skills .boxes .box h2{
+    font-size: 18px;
+    font-weight: 400;
+}
+.skills .boxes .box img{
+    width: 100px;
+    height: auto;
+}
+.testimonials{
+    font-size: 30px;
+}
+.testimonials .boxes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 1%;
+}
+.testimonials h1{
+    text-align: center;
+}
+.testimonials .boxes .box img{
+    width: 100px;
+    height: auto;
+    border-radius: 100px;
+}
+.testimonials .boxes .box h2{
+    font-size: 30px;
+    margin-top: 6%;
+}
+.testimonials .boxes .box h5{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 8%;
+    padding-left: 10px;
+}
+.testimonials .boxes .box p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 6%;
+    padding-right: 10px;
+}
+.testimonials .boxes .box .flex{
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 5%;
+}
+.testimonials .boxes .box{
+    width: 600px;
+    height: 250px;
+    background-color: #12171f;
+    border-radius: 50px;
+    margin: 0.5%;
+}
+.portfolio{
+    font-size: 30px;
+    margin-top: 10%;
+}
+.portfolio h1{
+    text-align: center;
+}
+.portfolio .boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.portfolio .boxes .box{
+    text-align: center;
+    width: 600px;
+    height: 500px;
+    background-color: #12171f;
+    margin: 1%;
+}
+.portfolio .boxes .box h2{
+    margin-top: 35%;
+    font-size: 25px;
+}
+.portfolio .boxes .box h3{
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.portfolio .boxes .box h4{
+    font-size: 15px;
+    margin-top: 10%;
+}
+.contact{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5%;  
+    display: flex;
+    flex-direction: column; 
+}
+.contact .boxes{
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact .boxes .box{
+    border-radius: 50px;
+    background-color: #12171f;
+    margin: 2%;
+    padding: 50px;
+}
+.contact .boxes .box h1{
+    font-weight: 500;
+    font-size: 25px;
+}
+.contact .boxes .box h4{
+    font-weight: 400;
+    font-size: 20px;
+}
+@media (max-width: 1720px) {
+    .hero{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .content{
+        flex-direction: column;
+        text-align: center;
+    }
+    .content .mainText{
+        width: 100%;
+    }
+    .content .image img{
+        max-width: 50%;
+    }
+    .aboutMe p{
+        padding: 0px 150px 0px 150px;
+    }
+    .skills h4{
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    .testimonials .boxes .box{
+        margin-bottom: 2%;
+    }
+
+}
+@media (max-width: 1100px) {
+    body{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .burger{
+        display: flex;
+        align-self: center;
+        justify-self: center;
+    }
+    .burger .burgerNavlist{
+        display: flex;
+        position: relative;
+    }
+    .burger .burgercontactMe{
+        width: 60%;
+    }
+    .navlist{
+        display: none;
+    }
+    .contactMe{
+        display: none;
+    }
+    i{
+        display: block;
+    }
+}
+@media (min-width: 1100px) {
+    i{
+        z-index: -4;
+    }
+    .icon{
+        display: none;
+    }
+}
+@media (max-width: 480px) {
+
+    .burger .burgercontactMe{
+        width: 60%;
+    }
+    .mainText h1{
+        font-size: 40px;
+    }
+    .mainText .lowerP{
+        font-size: 1.2rem;
+        margin-top: 2%;
+    }
+    .mainText i{
+        margin-left: 3%;
+        position: absolute;
+    }
+    .content img{
+        display: none;
+    }
+    .aboutMe{
+        font-size: 20px;
+    }
+    .aboutMe p{
+        margin-top: 5%;
+        padding: none;
+        text-align: center;
+        padding: 0;
+        font-size: 15px;
+    }
+    .skills{
+        margin-top: 5%;
+    }
+    .skills h1{
+        font-size: 40px;
+    }
+    .skills h4{
+        font-size: 15px;
+        padding: 0;
+    }
+    .skills .boxes .box{
+        width: 200px;
+        height: 250px;
+    }
+    .skills .boxes .box img{
+        width: 50px;
+        height: auto;
+    }
+    .skills .boxes .box h1{
+        font-size: 20px;
+    }
+    .skills .boxes .box h2{
+        font-size: 13px;
+    }
+    .testimonials h1{
+        font-size: 30px;
+    }
+    .testimonials .boxes .box{
+        margin-bottom: 15%;
+        width: 550px;
+        height: 200px;
+    }
+    .testimonials .boxes .box h5{
+        font-size: 15px;
+        padding-left: 0;
+        margin-top: 0;
+    }
+    .testimonials .boxes .box h2{
+        font-size: 20px;
+    }
+    .testimonials .boxes .box p{
+        font-size: 10px;
+    }
+    .testimonials .boxes .box img{
+        width: 75px;
+        height: auto;
+        margin-left: 5%;
+    }
+    .portfolio h1{
+        font-size: 30px;
+        margin-bottom: 5%;
+    }
+    .portfolio .boxes .box{
+        width: 500px;
+        height: 400px;
+        margin-bottom: 10%;
+    }
+    .portfolio .boxes .box h2{
+        margin-top: 45%;
+        font-size: 20px;
+    }
+    .portfolio .boxes .box h3{
+        font-size: 15px;
+    }
+    .contact h1{
+        font-size: 30px;
+    }
+    .contact .boxes .box h1{
+        font-size: 18px;
+    }
+    .contact .boxes .box h4{
+        font-size: 13px;
+    }
+}
